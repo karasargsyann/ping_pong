@@ -164,6 +164,6 @@ while True:
     if ball.ycor() >= rocket_2.ycor() - 50 and ball.ycor() <= rocket_2.ycor() + 50 \
         and ball.xcor() >= rocket_2.xcor() - 5  and ball.xcor() <= rocket_2.xcor() + 5:
         ball.dx = -ball.dx
-oooooo
+        
 #чтобы окно показывалось долгое время
 window.mainloop()
